@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/About.css';
 import styled from 'styled-components';
+import Social from './Social';
 
 //INICIO DE NUESTROS ESTILOS CON STYLED-COMPONENTS
-
-const AboutStyle = styled.div`
+//Se utiliza el concepto de plantillas etiquetadas o Tgged tamplate literals
+const AboutStyle = styled.div`  
     text-align: center;
 `;
 
@@ -78,7 +79,7 @@ const About = () => {
                 Medellin, Colombia
             </AboutLocation>
             <div className="About-social">
-                Redes Sociales
+                <Social/>
             </div>
         </div>
     </AboutStyle>
@@ -86,3 +87,27 @@ const About = () => {
 };
 
 export default About;
+
+
+/*
+function calcularEdad(string, ...keys){ 
+
+    console.log(string);
+    console.log(keys)
+
+    return {
+        nombre : keys[0],
+        apellido : keys[1],
+        edad : keys[2],
+        cadenaText: string
+    }
+}
+
+let e = 12
+let n = "oscar"
+let a = "meneses"
+calcularEdad`
+    el estudiate ${n}, 
+    su edad es ${e} 
+    de apellido ${a}
+` */

@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../components/About';
+import Micomponente from '../components/About';
 import Education from '../components/Education';
 //Importar los elementos según los vamos utilizando
 import Main from '../components/Main';
@@ -7,7 +7,7 @@ import Main from '../components/Main';
 const App = () => {
     return (
         <Main>
-            <About />
+            <Micomponente />
             <Education />
         </Main>
     )
