@@ -1,0 +1,17 @@
+.About {
+    text-align: center;
+}
+
+.About-avatar {
+    padding: 2em 0 0 0;
+}
+
+img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
