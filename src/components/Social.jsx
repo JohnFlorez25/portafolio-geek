@@ -24,10 +24,12 @@ const SocialAnchor = styled.a`
 
 const SocialIcon = styled.i`
   color: ${props => props.theme.color};
+  margin-top : ${props => props.theme.mimargintop};
 `
 
 const facebook = {
-  color: '#3b5998'
+  color: '#3b5998',
+  mimargintop : '3px'
 }
 const twitter = {
   color: '#38A1F3'
