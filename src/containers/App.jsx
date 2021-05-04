@@ -5,6 +5,7 @@ import Education from '../components/Education'
 import Experience from '../components/Experience'
 //Importar los elementos según los vamos utilizando
 import Main from '../components/Main'
+import Skills from '../components/Skills'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Education />
         <Experience />
         <Certification></Certification>
+        <Skills/>
       </div>
     </Main>
   )
