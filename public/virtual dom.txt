@@ -1,0 +1,20 @@
+reconciliacion ---> 
+    - Comparación entre las versiones del DOM
+
+    version 1
+    <p>Hola</p>
+
+    version 2
+    <p>Hola mundo!!!</p>
+
+     Ventajas:
+        - Aplicativos mas rápidos
+        - Unificar conceptos 
+        - Concentración de la logica de negocia
+        - Optimización a nvl DOM
+
+renderizacion
+
+    -REactDOM (navegadores)
+    -React Native (Dispositivos mobiles)
+    -React Server Side Render (Servidor)

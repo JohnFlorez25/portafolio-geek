@@ -1,5 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
+ 
 const SocialStyle = styled.div`
   margin: 0 auto;
   display: block;
